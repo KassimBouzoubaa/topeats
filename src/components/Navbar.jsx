@@ -20,11 +20,11 @@ const Navbar = () => {
           <AiOutlineMenu size={30} />
         </div>
         <h1 className='text-2xl sm:text-3xl lg:text-4xl px-2'>
-          Yssam <span className='font-bold'>Eats</span>
+          Top <span className='font-bold'>Eats</span>
         </h1>
         <div className='hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]'>
-          <p className='bg-black text-white rounded-full p-2'>Delivery</p>
-          <p className='p-2'>Pickup</p>
+          <p className='bg-black text-white rounded-full p-2'>Livraison</p>
+          <p className='p-2'>À emporter</p>
         </div>
       </div>
 
@@ -40,7 +40,7 @@ const Navbar = () => {
 
       {/* Boutton atc */}
       <button className='bg-black text-white hidden md:flex items-center py-2 rounded-full'>
-        <BsFillCartFill className='mr-2' size={20} /> Cart
+        <BsFillCartFill className='mr-2' size={20} /> Panier
       </button>
 
       {/* Menu mobile */}
